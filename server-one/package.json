@@ -1,0 +1,24 @@
+{
+  "name": "week1",
+  "version": "1.0.0",
+  "description": "SSSF course",
+  "main": "start.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nikoprl/sssf-week1.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Niko",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.3"
+  }
+}
