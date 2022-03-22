@@ -1,5 +1,5 @@
-'use strict';
-import { cats, getCat } from '../models/catModel';
+"use strict";
+import { cats, getCat } from "../models/catModel";
 
 const cat_list_get = (req, res) => {
   res.json(cats);
@@ -12,13 +12,9 @@ const cat_get = (req, res) => {
 };
 
 const cat_post = (req, res) => {
-  console.log('body: ', req.body);
-  console.log('file: ', req.file);
-  res.send('Cat sent.');
+  console.log("cat body: ", req.body);
+  console.log("cat file: ", req.file);
+  res.send("Cat sent.");
 };
 
-
-
-export {
-  cat_list_get, cat_get, cat_post
-};
+export { cat_list_get, cat_get, cat_post };
