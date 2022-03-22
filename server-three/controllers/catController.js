@@ -11,6 +11,14 @@ const cat_get = (req, res) => {
   res.json(cat);
 };
 
+const cat_post = (req, res) => {
+  console.log('body: ', req.body);
+  console.log('file: ', req.file);
+  res.send('Cat sent.');
+};
+
+
+
 export {
-  cat_list_get, cat_get
+  cat_list_get, cat_get, cat_post
 };
